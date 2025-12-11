@@ -13,11 +13,6 @@ import java.util.UUID;
 @RequestMapping("/users")
 public class UserController {
 
-    public UserController(){
-        //metodo de comprobación
-        System.out.println("UserController is Ok");
-    }
-
     private static final List<User> users = new ArrayList<>();
 
     @GetMapping
